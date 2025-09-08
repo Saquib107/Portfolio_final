@@ -67,9 +67,39 @@ header .container {
 }
 
 .box {
-    background-color: #5682B1;
+    background-color: #541212;
 }
 
 .box-2 {
     background-color: #eeeeee;
+}
+
+#skills .card {
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+#skills .card-body {
+    padding: 10px;
+}
+
+#skills h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#skills p {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+#skills p span {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#skills .progress {
+    height: 6px;
+    margin-bottom: 10px;
 }
