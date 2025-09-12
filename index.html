@@ -38,20 +38,30 @@
     <header class="head d-flex align-items-center text-center position-relative">
         <div id="particles-js"></div>
         <div class="container position-relative" data-aos="zoom-in" data-aos-duration="1000">
-            <h1 class="display-4 text-white">Hi, I’m Saquib - A Passionate Computer Science Student</h1>
-            <p class="lead text-white-50">A creative developer passionate about building responsive, user-friendly, and
-                elegant websites</p>
-            <a href="#about" class="btn btn-primary btn-lg">View My Projects</a>
+            <div class="row align-items-center">
+                <!-- Text Column -->
+                <div class="col-md-6 text-md-start text-center text-white mb-4 mb-md-0">
+                    <h1 class="display-4">Hi, I’m Saquib - A Passionate Computer Science Student</h1>
+                    <p class="lead text-white-50">A creative developer passionate about building responsive,
+                        user-friendly, and elegant websites</p>
+                    <a href="#about" class="btn btn-primary btn-lg">View My Projects</a>
+                </div>
+                <!-- Image Column -->
+                <div class="col-md-6">
+                    <img src="IMG_20250816_135521.png" alt="Saquib Photo"
+                        class="img-fluid rounded shadow mx-auto d-block">
+                </div>
+            </div>
         </div>
     </header>
 
     <!-- About -->
-    <section id="about" class="py-5 about">
+    <section id="about" class="py-5 section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6" data-aos="fade-right">
                     <h2 class="text">About Me</h2>
-                    <p class="text">I’m currently pursuing my degree in Computer Science and have a keen interest in web
+                    <p class="text">I'm currently pursuing my degree in Computer Science and have a keen interest in web
                         development and software engineering. I enjoy learning new technologies, solving real-world
                         problems, and creating projects that challenge me to grow. My journey is all about gaining
                         hands-on experience and building a strong foundation for my future career in tech.</p>
@@ -63,115 +73,80 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-5 section">
+    <!--SKILLS SECTION-->
+    <section id="skills" class="py-5 text-center section">
         <div class="container">
-            <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="text">My Skills</h2>
-                <p class="text">Technologies and tools I work with to build efficient and scalable applications</p>
-            </div>
 
-            <div class="row g-4">
-                <!-- Frontend Skills -->
-                <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
-                    <div class="card h-100 p-3 box">
-                        <div class="card-body">
-                            <h4 class="card-title text-center text mb-4">Frontend Development</h4>
 
-                            <!-- HTML -->
-                            <p class="text small">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                                    width="25" class="me-2">
-                                HTML5 <span class="float-end">95%</span>
-                            </p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-danger" style="width: 95%"></div>
-                            </div>
+            <h2 class="mb-4 text">SKILLS</h2>
 
-                            <!-- CSS -->
-                            <p class="text small">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                                    width="25" class="me-2">
-                                CSS3 <span class="float-end">85%</span>
-                            </p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-primary" style="width: 85%"></div>
-                            </div>
-
-                            <!-- JavaScript -->
-                            <p class="text small">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                                    width="25" class="me-2">
-                                JavaScript <span class="float-end">80%</span>
-                            </p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-warning text-dark" style="width: 80%"></div>
-                            </div>
-
-                            <!-- React -->
-                            <p class="text small">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                                    width="25" class="me-2">
-                                React.js <span class="float-end">50%</span>
-                            </p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-info" style="width: 50%"></div>
-                            </div>
-
-                        </div>
-                    </div>
+            <!-- Using Now -->
+            <h5 class="text mb-3">USING NOW:</h5>
+            <div class="row justify-content-center mb-5 text">
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-html5-plain colored"></i>
+                    <p>HTML5</p>
                 </div>
-
-                <!-- Backend Skills -->
-                <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
-                    <div class="card h-100 p-3 box">
-                        <div class="card-body">
-                            <h4 class="card-title text-center text mb-4">Backend Development</h4>
-
-                            <!-- Java -->
-                            <p class="text small">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-                                    width="25" class="me-2">
-                                Java <span class="float-end">60%</span>
-                            </p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-danger" style="width: 60%"></div>
-                            </div>
-
-                            <!-- C -->
-                            <p class="text small">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-                                    width="25" class="me-2">
-                                C Language <span class="float-end">80%</span>
-                            </p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-secondary" style="width: 80%"></div>
-                            </div>
-
-                            <!-- Python -->
-                            <p class="text small">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-                                    width="25" class="me-2">
-                                Python <span class="float-end">70%</span>
-                            </p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-success" style="width: 70%"></div>
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-css3-plain colored"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-react-original colored"></i>
+                    <p>React</p>
+                </div>
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-bootstrap-plain colored"></i>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-git-plain colored"></i>
+                    <p>Git</p>
+                </div>
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-c-plain colored"></i>
+                    <p>C</p>
+                </div>
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-python-plain colored"></i>
+                    <p>Python</p>
+                </div>
+                <div class="col-4 col-md-2 skill-item">
+                    <i class="devicon-java-plain colored"></i>
+                    <p>Java</p>
                 </div>
             </div>
         </div>
-    </section>
 
+        <!-- Learning -->
+        <h5 class="text mb-3">LEARNING:</h5>
+        <div class="row justify-content-center mb-5 text">
+            <div class="col-4 col-md-2 skill-item">
+                <i class="devicon-nodejs-plain colored"></i>
+                <p>Node.js</p>
+            </div>
+            <div class="col-4 col-md-2 skill-item">
+                <i class="devicon-mysql-plain colored"></i>
+                <p>MySQL</p>
+            </div>
+            <div class="col-4 col-md-2 skill-item">
+                <i class="devicon-mongodb-plain colored"></i>
+                <p>MongoDB</p>
+            </div>
+        </div>
+        </div>
+    </section>
 
     <!-- Projects Section -->
     <section id="projects" class="py-5 section">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="text">My Projects</h2>
-                <p class="text">A glimpse into what I’ve built and experimented with</p>
+                <p class="text">A glimpse into what I've built and experimented with</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
@@ -207,12 +182,12 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="py-5 footer">
+    <section id="contact" class="py-5 section">
         <div class="container">
             <div class="text-center mb-5" data-aos="fade-up">
                 <h2 class="text">Contact Us</h2>
-                <p class="text">Whether it’s for a project, internship opportunity, or collaboration, feel free to reach
-                    out. I’m always open to learning and connecting with like-minded people</p>
+                <p class="text">Whether it's for a project, internship opportunity, or collaboration, feel free to reach
+                    out. I'm always open to learning and connecting with like-minded people</p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-8" data-aos="fade-up">
