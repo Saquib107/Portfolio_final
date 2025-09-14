@@ -17,176 +17,173 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container d-flex align-items-center justify-content-between">
+    <div class="main-content">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container d-flex align-items-center justify-content-between">
 
-            <!-- Left Logo -->
-            <a class="navbar-brand" href="#">
-                <img src="asessts/ChatGPT Image Sep 13, 2025, 03_37_43 AM.png" alt="Logo" class="logo">
-            </a>
+                <!-- Left Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="assets/ChatGPT Image Sep 13, 2025, 03_37_43 AM.png" alt="Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 
-            <!-- Hamburger for Mobile -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <!-- Desktop Pills -->
+                    <ul class="nav nav-pills rounded-pill bg-black px-3 py-2 d-none d-lg-flex">
+                        <li class="nav-item px-3 border-end">
+                            <a class="nav-link text-white text-center" href="#home">
+                                <i class="bi bi-house-door fs-4 d-block"></i>Home</a>
+                        </li>
+                        <li class="nav-item px-3 border-end">
+                            <a class="nav-link text-white text-center" href="#about">
+                                <i class="bi bi-person fs-4 d-block"></i>About Me</a>
+                        </li>
+                        <li class="nav-item px-3 border-end">
+                            <a class="nav-link text-white text-center" href="#skills">
+                                <i class="bi bi-lightning-charge fs-4 d-block"></i> Skills </a>
+                        </li>
+                        <li class="nav-item px-3 border-end">
+                            <a class="nav-link text-white text-center" href="#projects">
+                                <i class="bi bi-briefcase fs-4 d-block"></i>Projects</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link text-white text-center" href="#contact"><i
+                                    class="bi bi-envelope fs-4 d-block"></i>Contact</a>
+                        </li>
+                    </ul>
 
-            <!-- Nav Links -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <!-- Mobile Vertical Menu -->
+                    <ul class="navbar-nav d-lg-none mt-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"><i class="bi bi-house-door me-2"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about"><i class="bi bi-person me-2"></i> About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills"><i class="bi bi-lightning-charge me-2"></i> Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects"><i class="bi bi-briefcase me-2"></i> Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"><i class="bi bi-envelope me-2"></i> Contact</a>
+                        </li>
+                    </ul>
 
-                <!-- Desktop Pills -->
-                <ul class="nav nav-pills rounded-pill bg-black px-3 py-2 d-none d-lg-flex">
-                    <li class="nav-item px-3 border-end">
-                        <a class="nav-link text-white text-center" href="#home">
-                            <i class="bi bi-house-door fs-4 d-block"></i>Home</a>
-                    </li>
-                    <li class="nav-item px-3 border-end">
-                        <a class="nav-link text-white text-center" href="#about">
-                            <i class="bi bi-person fs-4 d-block"></i>About Me</a>
-                    </li>
-                    <li class="nav-item px-3 border-end">
-                        <a class="nav-link text-white text-center" href="#skills">
-                            <i class="bi bi-lightning-charge fs-4 d-block"></i> Skills </a>
-                    </li>
-                    <li class="nav-item px-3 border-end">
-                        <a class="nav-link text-white text-center" href="#projects">
-                            <i class="bi bi-briefcase fs-4 d-block"></i>Projects</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link text-white text-center" href="#contact"><i
-                                class="bi bi-envelope fs-4 d-block"></i>Contact</a>
-                    </li>
-                </ul>
-
-                <!-- Mobile Vertical Menu -->
-                <ul class="navbar-nav d-lg-none mt-3">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home"><i class="bi bi-house-door me-2"></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about"><i class="bi bi-person me-2"></i> About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills"><i class="bi bi-lightning-charge me-2"></i> Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects"><i class="bi bi-briefcase me-2"></i> Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact"><i class="bi bi-envelope me-2"></i> Contact</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-
-
-    <!-- Header -->
-    <header id="home" class="head d-flex align-items-center text-center position-relative">
-        <div id="particles-js"></div>
-        <div class="container position-relative" data-aos="zoom-in" data-aos-duration="1000">
-            <div class="row align-items-center">
-                <!-- Text Column -->
-                <div class="col-md-6 text-md-start text-center text-white mb-4 mb-md-0">
-                    <h1 class="display-4">Hi, I'm Saquib - A Passionate Computer Science Student</h1>
-                    <p class="lead text-white-50">A creative developer passionate about building responsive,
-                        user-friendly, and elegant websites</p>
-                    <a href="#about" class="btn btn-primary btn-lg">View My Projects</a>
-                </div>
-                <!-- Image Column -->
-                <div class="col-md-6">
-                    <img src="asessts/ChatGPT Image Mar 29, 2025, 08_54_47 PM.png" alt="Saquib Photo"
-                        class="img-fluid rounded shadow mx-auto d-block">
                 </div>
             </div>
-        </div>
-    </header>
+        </nav>
 
-    <!-- About -->
-    <section id="about" class="py-5 section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6" data-aos="fade-right">
-                    <h2 class="text">About Me</h2>
-                    <p class="text">I'm currently pursuing my degree in Computer Science and have a keen interest in web
-                        development and software engineering. I enjoy learning new technologies, solving real-world
-                        problems, and creating projects that challenge me to grow. My journey is all about gaining
-                        hands-on experience and building a strong foundation for my future career in tech.</p>
-                </div>
-                <div class="col-md-6" data-aos="fade-left">
-                    <img src="asessts/IMG_20250816_135521.png" class="img-fluid rounded shadow" alt="About">
+
+        <!-- Header -->
+        <header id="home" class="head d-flex align-items-center text-center position-relative">
+            <div id="particles-js"></div>
+            <div class="container position-relative" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6">
+                        <h1 class="display-4 text-white">Hi, I'm Saquib - A Passionate Computer Science Student</h1>
+                        <p class="lead text-white-50">
+                            A creative developer passionate about building responsive, user-friendly, and elegant
+                            websites
+                        </p>
+                        <a href="#projects" class="btn btn-primary btn-lg">View My Projects</a>
+                    </div>
+
+                    <div class="col-lg-6 text-center">
+                        <img src="assets/ChatGPT Image Mar 29, 2025, 08_54_47 PM.png" alt="Saquib" class="img-fluid">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </header>
 
-    <!--SKILLS SECTION-->
-    <section id="skills" class="py-5 text-center section">
-        <div class="container">
+        <!-- ABOUT -->
+        <section id="about" class="py-5 section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6" data-aos="fade-right">
+                        <h2 class="text">About Me</h2>
+                        <p class="text">I'm currently pursuing my degree in Computer Science and have a keen interest in
+                            web
+                            development and software engineering. I enjoy learning new technologies, solving real-world
+                            problems, and creating projects that challenge me to grow. My journey is all about gaining
+                            hands-on experience and building a strong foundation for my future career in tech.</p>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-left">
+                        <img src="assets/IMG_20250816_135521.png" class="img-fluid rounded shadow" alt="About">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SKILLS SECTION-->
+        <section id="skills" class="py-5 text-center section">
+            <div class="container">
 
 
-            <h2 class="mb-4 text" data-aos="fade-down">SKILLS</h2>
+                <h2 class="mb-4 text" data-aos="fade-down">SKILLS</h2>
 
-            <!-- Using Now -->
-            <h5 class="text mb-3" data-aos="fade-right">USING NOW:</h5>
+                <h5 class="text mb-3" data-aos="fade-right">USING NOW:</h5>
+                <div class="row justify-content-center mb-5 text">
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in">
+                        <i class="devicon-html5-plain colored"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="devicon-css3-plain colored"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="devicon-react-original colored"></i>
+                        <p>React</p>
+                    </div>
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="devicon-bootstrap-plain colored"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="500">
+                        <i class="devicon-git-plain colored"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="600">
+                        <i class="devicon-c-plain colored"></i>
+                        <p>C</p>
+                    </div>
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="700">
+                        <i class="devicon-python-plain colored"></i>
+                        <p>Python</p>
+                    </div>
+                    <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="800">
+                        <i class="devicon-java-plain colored"></i>
+                        <p>Java</p>
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="text mb-3" data-aos="fade-right">LEARNING:</h5>
             <div class="row justify-content-center mb-5 text">
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in">
-                    <i class="devicon-html5-plain colored"></i>
-                    <p>HTML5</p>
+                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="900">
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <p>Node.js</p>
                 </div>
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="100">
-                    <i class="devicon-css3-plain colored"></i>
-                    <p>CSS3</p>
+                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="1000">
+                    <i class="devicon-mysql-plain colored"></i>
+                    <p>MySQL</p>
                 </div>
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="200">
-                    <i class="devicon-javascript-plain colored"></i>
-                    <p>JavaScript</p>
-                </div>
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="300">
-                    <i class="devicon-react-original colored"></i>
-                    <p>React</p>
-                </div>
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="400">
-                    <i class="devicon-bootstrap-plain colored"></i>
-                    <p>Bootstrap</p>
-                </div>
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="500">
-                    <i class="devicon-git-plain colored"></i>
-                    <p>Git</p>
-                </div>
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="600">
-                    <i class="devicon-c-plain colored"></i>
-                    <p>C</p>
-                </div>
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="700">
-                    <i class="devicon-python-plain colored"></i>
-                    <p>Python</p>
-                </div>
-                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="800">
-                    <i class="devicon-java-plain colored"></i>
-                    <p>Java</p>
+                <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="1100">
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <p>MongoDB</p>
                 </div>
             </div>
-        </div>
-
-        <!-- Learning -->
-        <h5 class="text mb-3" data-aos="fade-right">LEARNING:</h5>
-        <div class="row justify-content-center mb-5 text">
-            <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="900">
-                <i class="devicon-nodejs-plain colored"></i>
-                <p>Node.js</p>
-            </div>
-            <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="1000">
-                <i class="devicon-mysql-plain colored"></i>
-                <p>MySQL</p>
-            </div>
-            <div class="col-4 col-md-2 skill-item" data-aos="zoom-in" data-aos-delay="1100">
-                <i class="devicon-mongodb-plain colored"></i>
-                <p>MongoDB</p>
-            </div>
-        </div>
-        </div>
+    </div>
     </section>
 
     <!-- Projects Section -->
@@ -239,21 +236,19 @@
             </div>
 
             <div class="row align-items-center justify-content-center g-5">
-                <!-- Left: Profile/Logo -->
                 <div class="col-md-4">
                     <div class="card profile-card text-center shadow-lg border-0">
                         <div class="card-body">
-                            <img src="asessts/IMG.jpg" alt="Profile" class="profile-img mb-3">
+                            <img src="assets/IMG.jpg" alt="Profile" class="profile-img mb-3">
                             <h4 class="card-title fw-bold">Saquib Rayees</h4>
                             <p class="card-text text-muted">Web Developer</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Right Section -->
                 <div class="col-md-7 d-flex flex-column gap-3 contact-buttons" data-aos="fade-left">
 
-                    <a href="rayeessaquib0022@gmail.com"
+                    <a href="mailto:rayeessaquib0022@gmail.com"
                         class="btn btn-hover contact-btn d-flex justify-content-between align-items-center rounded-pill px-4 py-3"
                         id="email-btn">
                         <span id="email-text">Email</span>
@@ -284,10 +279,10 @@
             </div>
         </div>
     </section>
-
+    </div>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3" data-aos="fade-up">
+    <footer class="foot">
         <p class="mb-0">© 2025 Saquib Rayees — Designed & Developed with passion.</p>
     </footer>
 
